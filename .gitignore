@@ -1,42 +1,30 @@
-# Virtual Environment
-venv/
-env/
-ENV/
-
-# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# Environnement virtuel
+venv/
+env/
+.venv/
 
 # Django
+*.log
+local_settings.py
 db.sqlite3
-*.sqlite3
-
-# Media files
+db.sqlite3-journal
 media/
 
-# Static files collectstatic
-staticfiles/
-
-# Environment variables
+# Secrets
 .env
+secret_key.txt
 
 # VS Code
 .vscode/
+*.code-workspace
 
-# IntelliJ / PyCharm
-.idea/
-*.iml
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
+# Windows
 Thumbs.db
-
-# Pytest
-.pytest_cache/
-
-# Migrations compilées
-*.pyc
+Desktop.ini

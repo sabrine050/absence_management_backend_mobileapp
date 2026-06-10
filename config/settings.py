@@ -86,9 +86,9 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
          'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Gestion_absence',  #  votre nom de base dans pgAdmin
+        'NAME': 'Gestion_absence',  
         'USER': 'postgres',
-        'PASSWORD': '123',  #  votre mot de passe pgAdmin
+        'PASSWORD': 'your_password_here',  
         'HOST': '127.0.0.1',
         'PORT': '5432',
         'OPTIONS': {
